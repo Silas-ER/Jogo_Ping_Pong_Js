@@ -21,7 +21,7 @@
 
 <h3>Dificuldades do projeto</h3>
 <p>
-    A primeira dificuldade encontrada foi relacionada a detectar a colisão entre a bolinha e a raquete, onde tentei usar uma função de colisão entre quadrado e circulo da propria biblioteca do P5.js mas acabei optando por importar uma solução do p5.collide2d.<br>
+    A primeira dificuldade encontrada foi relacionada a detectar a colisão entre a bolinha e a raquete, onde tentei usar uma função de colisão entre quadrado e circulo da propria biblioteca do P5.js mas acabei optando por importar uma solução mais completa do p5.collide2d.<br>
     <br>
     A segunda dificuldade foi relacionada a um bug que fazia a bolinha se manter atrás da raquete colidindo com a borda da tela diversas vezes e fazendo um dos jogadores ganhar diversos pontos numa unica jogada. A solução encontrada por mim foi, dentro da função de marcar pontos, caso a bolinha depois da pontuação se mantenha na posição que coincida com atrás da raquete e não se movimentar ela é teleportada para a posição que coincide com a da raquete gerando assim um efeito de raquetada, saindo do bug. 
 </p>
