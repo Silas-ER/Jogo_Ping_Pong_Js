@@ -1,2 +1,5 @@
-# Jogo_Ping_Pong_Js
- Jogo de ping pong desenvolvido em Js 
+<h1>Ping Pong</h1>
+
+<p>
+    Jogo desenvolvido nos estudos de Java Script, focado em lógica de programação.
+</p>
